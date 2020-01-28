@@ -197,6 +197,9 @@
     }
 }
 @media screen and (max-width: 320px) {
+    .header .menu .logo:hover{
+        font-size: 30px;
+    }
     .arrow {
         top: 20px;
     }
