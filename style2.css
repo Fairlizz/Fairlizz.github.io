@@ -9,6 +9,7 @@
 }
 .gallery img{
     margin: 10px 20px;
+    height: auto;
 }
 
 .gallery .img1{
