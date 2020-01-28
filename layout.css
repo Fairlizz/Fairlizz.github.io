@@ -142,19 +142,35 @@
     .footerLeft span{
         margin-top: 20px;
     }
+    .footer .footerRight span{
+        font-size: 25px;
+    }
     .footerLeft span, .footerRight span {
         font-size: 28px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
 }
 @media screen and (max-width: 375px){
     .footerLeft span{
         margin-top: 20px;
     }
+    .footer .footerLeft span{
+        font-size: 25px;
+    }
+    .footer .footerRight span{
+        font-size: 20px;
+    }
+    .footerLeft form input[type="email"]{
+        width: 200px;
+        font-size: 20px;
+    }
+    .footerLeft button {
+        font-size: 20px;
+    }
     .footerLeft span, .footerRight span {
-        font-size: 23px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -184,8 +200,11 @@
     .footerRight img {
         max-width: 30%;
     }
+    .footer .footerRight span{
+        font-size: 18px;
+    }
     .footerLeft span, .footerRight span {
-        font-size: 23px;
+        font-size: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
