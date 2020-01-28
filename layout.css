@@ -1,0 +1,237 @@
+@media screen and (max-width: 800px) {
+    .arrow {
+        top: 40px;
+    }
+    .carousel-item img{
+        height: 120%;
+    }
+    .carousel-wrapper{
+        height: 620px;
+    }
+    .gallery [class^="img"]{
+        max-width: 70%;
+    }
+    .gallery img:hover{
+        transform: none;
+    }
+    .picDesc .pic1-1,  .picDesc .pic3-3{
+        max-width: 90%;
+    }
+    .picDesc img.pic1, .picDesc img.pic2 {
+        max-width: 50%;
+    }
+    .about span.description2{
+        margin: 5% 10%;
+        font-size: 18px;
+    }
+    .about span.description3{
+        margin: 10% 10%;
+        font-size: 18px;
+    }
+    .picDesc img.pic2{
+        max-width: 50%;
+    }
+    .footerLeft span, .footerRight span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header  {
+        flex-direction: column;
+    }
+    .header .menu ul {
+        flex-direction: column;
+        align-self: center;
+    }
+    .header .menu ul li {
+        margin: 5px;
+        text-align: center;
+    }
+    .carousel-item img{
+        height: 140%;
+    }
+    .carousel-wrapper{
+        height: 450px;
+    }
+    .arrow{
+        margin: 0 -40px;
+        background-size: 30px;
+        background-position: 20px 50%;
+    }
+    .hometext{
+        color: #7e3d4a;
+        text-shadow: #e0b9ca 4px 4px 4px;
+    }
+    .hometext2{
+        color: #e0b9ca;
+        text-shadow: #7e3d4a 4px 4px 4px;
+        margin-top: 90px;
+    }
+    .gallery [class^="img"]{
+    max-width: 90%;
+}
+    .gallery img:hover{
+        transform: none;
+    }
+    video{
+        width: 100%;
+        height: 100%;
+    }
+    .contactForm input, textarea {
+        width: 400px;
+    }
+    .contact .email{
+        font-size: 25px;
+    }
+    .about span.description{
+        font-size: 20px;
+    }
+    .picDesc img.pic1 {
+        max-width: 100% !important;
+    }
+    .about span.description2{
+        width: 80%;
+        font-size: 18px;
+    }
+    .picDesc img.pic2{
+        max-width: 70%;
+    }
+    .picDesc img.pic3{
+        max-width: 100%;
+    }
+    .about span.description3{
+        width: 80%;
+        font-size: 18px;
+    }
+    .footerLeft span{
+        margin-top: 20px;
+    }
+    .footerLeft span, .footerRight span {
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 425px){
+    .arrow {
+        top: 40px;
+    }
+    .carousel-wrapper{
+        height: 380px;
+    }
+    .carousel-item img{
+        height: 160%;
+    }
+    .contactForm input, textarea{
+        width: 320px;
+    }
+    .contactForm input{
+        width: 324px;
+    }
+    .contact button{
+        font-size: 23px;
+        width: 150px;
+    }
+    .contact span.email{
+        font-size: 25px;
+        text-align: center;
+    }
+    .footerLeft span{
+        margin-top: 20px;
+    }
+    .footerLeft span, .footerRight span {
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 375px){
+    .footerLeft span{
+        margin-top: 20px;
+    }
+    .footerLeft span, .footerRight span {
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact span{
+        font-size: 30px;
+    }
+    .contact span.email{
+        font-size: 25px;
+        text-align: center;
+    }
+    .contactForm input, textarea{
+        width: 280px;
+    }
+    .contactForm input{
+        width: 284px;
+    }
+    .contact button{
+        font-size: 20px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .arrow {
+        top: 20px;
+    }
+    .footerRight img {
+        max-width: 30%;
+    }
+    .footerLeft span, .footerRight span {
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerLeft span{
+        margin: 0 30px;
+    }
+    .footerLeft span{
+        margin-top: 20px;
+    }
+    input[type="email"], .footerLeft button, input[type="text"], textarea{
+        font-size: 20px;
+    }
+    .carousel-item img{
+        height: 120%;
+    }
+    .carousel-wrapper{
+        height: 300px;
+    }
+    .carousel-item{
+        margin: 80px 50px;
+    }
+    .latestWorks{
+        height: 0;
+        padding: 0;
+        margin: 25px auto;
+        font-size: 30px;
+    }
+    .contact span{
+        font-size: 30px;
+    }
+    .contact span.email{
+        font-size: 20px;
+        text-align: center;
+    }
+    .contactForm input, textarea{
+        width: 260px;
+    }
+    .contactForm input{
+        width: 264px;
+    }
+    .contact button{
+        font-size: 20px;
+        width: 150px;
+    }
+    .footerLeft form input[type="email"]{
+        width: 200px;
+    }
+}

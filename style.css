@@ -1,0 +1,175 @@
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #a96d8e, #a96d8e, #be8ea8, #a96d8e, #a96d8e);
+}
+.header .menu ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+@font-face {
+    font-family: Yarin;
+    src: url("Yarin.otf");
+}
+.header .menu ul li{
+    font-size: 30px;
+    font-family: Yarin, "Century Gothic";
+    padding: 0 40px;
+}
+.header .menu a{
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #e0b9ca;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.header .menu a:hover{
+    color: #7e3d4a;
+}
+.header .menu .logo:hover{
+    font-size: 35px;
+    text-shadow: #e0b9ca 4px 4px 4px;
+}
+.header .menu .logo{
+    text-shadow: black 4px 4px 4px;
+    transition-duration: 1s;
+}
+.homepage{
+    display: flex;
+    justify-content: center;
+    background-color:  #dabfc8;
+}
+.homeimg{
+    background: url("images/HomeImg.jpg") center/cover no-repeat;
+    height: 542px;
+    width: 960px;
+}
+.hometext, .hometext2{
+    color: #a96d8e;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: Yarin, "Century Gothic";
+}
+.hometext{
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.hometext2{
+    margin-right: 20px;
+    margin-top: 150px;
+    text-align: right;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    background-color: #e0b9ca;
+
+}
+.footerLeft span,.footerRight span{
+    color: #a96d8e;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: Yarin, "Century Gothic";
+}
+input[type="email"], .footerLeft button, input[type="text"], textarea{
+    border: 2px solid #a96d8e;
+    color: #a96d8e;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-family: Yarin, "Century Gothic";
+    margin-top: 20px;
+}
+.footerLeft button {
+    cursor: pointer;
+}
+.footerLeft form input[type="email"]{
+    width: 250px;
+}
+.footerRight img{
+    transition-duration: 0.5s;
+}
+.footerRight img:hover{
+    transform: scale(1.2);
+}
+.latestWorks{
+    display: flex;
+    background-color: #bbcacc;
+    text-shadow: #e0b9ca 4px 4px 4px;
+   position: relative;
+    margin: 50px auto;
+    color: #478397;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-family: Yarin, "Century Gothic";
+}
+.carousel-wrapper{
+    display: flex;
+    height: 650px;
+    position: relative;
+    background-color: #bbcacc;
+}
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 130px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.carousel-item img{
+height: 120%;
+    padding: 5px;
+    border: 4px dashed #a96d8e;
+}
+.item-2 img{
+height: 120%;
+}
+.arrow {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 100%;
+    background: url("images/arrow_right2.png") 50% 50%/40px no-repeat;
+}
+.arrow-prev{
+     left:0;
+    transform:rotate(180deg);
+ }
+.arrow-next{
+    right: 0;
+}
+[id^="target-item"]{
+    display: none;
+}
+.item-1{
+    z-index: 2;
+    opacity: 1;
+}
+*:target~.item-1{
+    opacity: 0;
+}
+#target-item-1:target~.item-1{
+    opacity: 1;
+}
+#target-item-2:target~.item-2,#target-item-3:target~.item-3{
+    z-index: 3;
+    opacity: 1;
+}

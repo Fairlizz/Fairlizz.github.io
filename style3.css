@@ -1,0 +1,45 @@
+.contact{
+    background-color: #bbcacc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-bottom: 20px;
+}
+.contact span{
+    padding: 30px 0;
+    background-color: #bbcacc;
+    text-shadow: #e0b9ca 4px 4px 4px;
+    color: #478397;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-family: Yarin, "Century Gothic";
+}
+.contact .email{
+    padding: 0;
+    color: #7e3d4a;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: Yarin, "Century Gothic";
+}
+.contactForm input, textarea{
+width: 480px;
+    border: none;
+    margin: 5px;
+    resize: none;
+}
+.contact button{
+    cursor: pointer;
+    border: 2px solid #a96d8e;
+    color: #7e3d4a;
+    background-color: #e0b9ca;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-family: Yarin, "Century Gothic";
+    position: relative;
+    float: right;
+    margin: 5px;
+    width: 150px;
+  }

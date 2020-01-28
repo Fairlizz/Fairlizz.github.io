@@ -1,0 +1,99 @@
+.about span{
+    padding: 30px 0;
+    background-color: #bbcacc;
+    text-shadow: #e0b9ca 4px 4px 4px;
+    color: #478397;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-family: Yarin, "Century Gothic";
+}
+.about{
+    background-color: #bbcacc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.about span.description{
+    padding: 0;
+    width: 50%;
+    text-align: center;
+    color: #7e3d4a;
+    font-size: 25px;
+    font-family: "Century Gothic";
+}
+.picDesc{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.picDesc img.pic1{
+    transform: rotate(-10deg);
+    max-width: 50%;
+    transition-duration: 2s;
+}
+.picDesc .pic1-1{
+    margin: 50px 50px;
+    max-width: 60%;
+background-color: #e0b9ca;
+    box-shadow: #7e3d4a 15px 15px 10px;
+}
+.picDesc img.pic1:hover{
+    cursor: pointer;
+    transform: rotate(-370deg);
+}
+
+.picDesc img.pic2{
+    transform: rotate(10deg);
+    max-width: 25%;
+    border-radius: 50%;
+    transition-duration: 1s;
+}
+.picDesc img.pic2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.about span.description2{
+    position: relative;
+    float: right;
+   margin: 10% 10%;
+    background-color: #e0b9ca;
+    padding: 0;
+    width: 30%;
+    text-align: center;
+    color: #7e3d4a;
+    font-size: 20px;
+    font-family: "Century Gothic";
+}
+.picDesc img.pic3{
+    position: relative;
+    float: right;
+    transform: rotate(10deg);
+    max-width: 50%;
+    transition-duration: 1s;
+}
+.picDesc .pic3-3{
+    margin: 50px 50px;
+    max-width: 60%;
+    background-color: #e0b9ca;
+    box-shadow: #7e3d4a -15px 15px 10px;
+}
+.picDesc img.pic3:hover{
+    cursor: pointer;
+    transform: rotate(0deg);
+}
+.about span.description3{
+    position: relative;
+    float: left;
+   margin: 10% 10%;
+    background-color: #e0b9ca;
+    padding: 0;
+    width: 30%;
+    text-align: center;
+    color: #7e3d4a;
+    font-size: 20px;
+    font-family: "Century Gothic";
+}
