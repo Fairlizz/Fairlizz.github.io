@@ -38,6 +38,9 @@
     }
 }
 @media screen and (max-width: 500px) {
+    .header .menu .logo:hover{
+        font-size: 30px;
+    }
     .header  {
         flex-direction: column;
     }
