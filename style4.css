@@ -6,7 +6,7 @@
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 40px;
-    font-family: Yarin, "Century Gothic";
+    font-family: 'Indie Flower', "Century Gothic";
 }
 .about{
     background-color: #bbcacc;
@@ -21,7 +21,7 @@
     text-align: center;
     color: #7e3d4a;
     font-size: 25px;
-    font-family: "Century Gothic";
+    font-family: 'Indie Flower', "Century Gothic";
 }
 .picDesc{
     display: flex;
@@ -66,7 +66,7 @@ background-color: #e0b9ca;
     text-align: center;
     color: #7e3d4a;
     font-size: 20px;
-    font-family: "Century Gothic";
+    font-family: 'Indie Flower', "Century Gothic";
 }
 .picDesc img.pic3{
     position: relative;
@@ -95,5 +95,5 @@ background-color: #e0b9ca;
     text-align: center;
     color: #7e3d4a;
     font-size: 20px;
-    font-family: "Century Gothic";
+    font-family: 'Indie Flower', "Century Gothic";
 }

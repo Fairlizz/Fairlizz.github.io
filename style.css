@@ -1,4 +1,6 @@
-
+body{
+    font-weight: bold
+}
 .header{
     display: flex;
     flex-wrap: wrap;
@@ -13,17 +15,14 @@
     list-style-type: none;
     padding: 0;
 }
-@font-face {
-    font-family: Yarin;
-    src: url("Yarin.otf");
-}
+
 .header .menu ul li{
     font-size: 30px;
-    font-family: Yarin, "Century Gothic";
+    font-family: 'Indie Flower', "Century Gothic";
     padding: 0 40px;
 }
 .header .menu a{
-    font-weight: bold;
+
     letter-spacing: 1px;
     color: #e0b9ca;
     text-decoration: none;
@@ -52,10 +51,9 @@
 }
 .hometext, .hometext2{
     color: #a96d8e;
-    font-weight: bold;
     letter-spacing: 1px;
     font-size: 30px;
-    font-family: Yarin, "Century Gothic";
+    font-family: 'Indie Flower', "Century Gothic";
 }
 .hometext{
     margin-left: 20px;
@@ -77,18 +75,17 @@
 }
 .footerLeft span,.footerRight span{
     color: #a96d8e;
-    font-weight: bold;
     letter-spacing: 1px;
     font-size: 30px;
-    font-family: Yarin, "Century Gothic";
+    font-family: 'Indie Flower', "Century Gothic";
 }
 input[type="email"], .footerLeft button, input[type="text"], textarea{
+    font-weight: bold;
     border: 2px solid #a96d8e;
     color: #a96d8e;
-    font-weight: bold;
     letter-spacing: 1px;
     font-size: 23px;
-    font-family: Yarin, "Century Gothic";
+    font-family: 'Indie Flower', "Century Gothic";
     margin-top: 20px;
 }
 .footerLeft button {
@@ -110,10 +107,9 @@ input[type="email"], .footerLeft button, input[type="text"], textarea{
    position: relative;
     margin: 50px auto;
     color: #478397;
-    font-weight: bold;
     letter-spacing: 1px;
     font-size: 40px;
-    font-family: Yarin, "Century Gothic";
+    font-family: 'Indie Flower', "Century Gothic";
 }
 .carousel-wrapper{
     display: flex;

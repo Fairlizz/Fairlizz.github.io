@@ -1,4 +1,14 @@
 @media screen and (max-width: 800px) {
+    .hometext{
+        color: #7e3d4a;
+        text-shadow: #e0b9ca 4px 4px 4px;
+
+    }
+    .hometext2{
+        color: #e0b9ca;
+        text-shadow: #7e3d4a 4px 4px 4px;
+
+    }
     .arrow {
         top: 40px;
     }
@@ -66,11 +76,13 @@
     .hometext{
         color: #7e3d4a;
         text-shadow: #e0b9ca 4px 4px 4px;
+        background-color: rgba(224, 185, 202,0.5);
     }
     .hometext2{
+        background-color: rgba(126, 61, 74,0.4);
         color: #e0b9ca;
         text-shadow: #7e3d4a 4px 4px 4px;
-        margin-top: 90px;
+        margin-top: 50px;
     }
     .gallery [class^="img"]{
     max-width: 90%;
