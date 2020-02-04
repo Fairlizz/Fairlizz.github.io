@@ -43,4 +43,11 @@ width: 480px;
     float: right;
     margin: 5px;
     width: 150px;
+    transition:  1s ease;
   }
+.contact button:hover{
+    color: #e0b9ca;
+    background-color: #a96d8e;
+    border-radius: 500px;
+    width: 484px;
+}

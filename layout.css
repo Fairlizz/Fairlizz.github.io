@@ -2,12 +2,10 @@
     .hometext{
         color: #7e3d4a;
         text-shadow: #e0b9ca 4px 4px 4px;
-
     }
     .hometext2{
         color: #e0b9ca;
         text-shadow: #7e3d4a 4px 4px 4px;
-
     }
     .arrow {
         top: 40px;
@@ -48,6 +46,10 @@
     }
 }
 @media screen and (max-width: 500px) {
+    .contact button:hover{
+        width: 150px;
+        border-radius: 0;
+    }
     .header .menu .logo:hover{
         font-size: 30px;
     }

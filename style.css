@@ -15,14 +15,12 @@ body{
     list-style-type: none;
     padding: 0;
 }
-
 .header .menu ul li{
     font-size: 30px;
     font-family: 'Indie Flower', "Century Gothic";
     padding: 0 40px;
 }
 .header .menu a{
-
     letter-spacing: 1px;
     color: #e0b9ca;
     text-decoration: none;
@@ -89,6 +87,7 @@ input[type="email"], .footerLeft button, input[type="text"], textarea{
     margin-top: 20px;
 }
 .footerLeft button {
+    transition: all 0.5s linear;
     cursor: pointer;
 }
 .footerLeft form input[type="email"]{
@@ -168,4 +167,9 @@ height: 120%;
 #target-item-2:target~.item-2,#target-item-3:target~.item-3{
     z-index: 3;
     opacity: 1;
+}
+
+.footerLeft button:hover{
+    background-color: #a96d8e;
+    color: #e0b9ca;
 }
