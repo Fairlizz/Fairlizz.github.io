@@ -7,6 +7,24 @@ body{
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(90deg, #a96d8e, #a96d8e, #be8ea8, #a96d8e, #a96d8e);
+    animation: color 15s infinite linear;
+}
+@keyframes color {
+    0%{
+    background-position: -2000px 0;
+    }
+    25%{
+        background-position: -1000px 0;
+    }
+    50%{
+        background-position: -0px 0;
+    }
+    75%{
+        background-position: 1000px 0;
+    }
+    100%{
+        background-position: 2000px 0;
+    }
 }
 .header .menu ul{
     display: flex;
