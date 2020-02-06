@@ -17,7 +17,7 @@ body{
         background-position: -1000px 0;
     }
     50%{
-        background-position: -0px 0;
+        background-position: 0 0;
     }
     75%{
         background-position: 1000px 0;
